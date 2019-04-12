@@ -1,6 +1,6 @@
 # Pseudo-profundity Detection
 
-This is a text classification task detecting the presence or absence of pseudo-profundity, i.e. its detection. The pseudo-profound quotes are referrted to as **vacuous** and otherwise as **mundane**.
+This is a text classification task detecting the presence or absence of pseudo-profundity, i.e. its detection. Pseudo-profound quotes are labelled as **vacuous** and as **mundane** otherwise.
 
 ## Pseudo-profound quote examples:
 
