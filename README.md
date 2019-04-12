@@ -2,4 +2,4 @@
 #Pseudo-profundity Detection
 
 #Examples:
-![Image of example1](https://octodex.github.com/images/yaktocat.png)
+![Image of example1](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/rain.jpg)
