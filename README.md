@@ -26,3 +26,5 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 - Goodreads
 
 ## Results
+
+![Image of results](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/results.png)
