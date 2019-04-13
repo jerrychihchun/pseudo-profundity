@@ -1,7 +1,13 @@
 # Pseudo-profundity Detection
 
-This is a text classification task detecting the presence of pseudo-profundity. Pseudo-profound quotes are labelled as **vacuous** and as **mundane** otherwise.
+This is a text classification task detecting the presence of pseudo-profundity. Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
 
+- *MUNDANE*: “AIf there is no wall, there is no deal!”
+- *VACUOUS*: “A wet man doesn’t fear the rain.”
+
+  - pseudo-profound quotes:
+  “consists of seemingly impressive assertions that are presented as true and meaningful but
+  are actually vacuous (Pennycook et al., 2015, p. 549).”
 ## Pseudo-profound quote examples:
 
 ![Image of examples](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/quotes.png)
@@ -32,9 +38,9 @@ Wordcloud for **mundane** quotes
 
 ## Inputs:
 
-  - tokens (using TweetTokenizer)
-  - stems (using Snowball stemer)
-  - lemmas (using WordNet lemmatizer)
+- tokens (using TweetTokenizer)
+- stems (using Snowball stemer)
+- lemmas (using WordNet lemmatizer)
 
 ## Models:
 
