@@ -6,16 +6,15 @@ This is a text classification task detecting the presence of pseudo-profundity. 
   - *VACUOUS*: “A wet man doesn’t fear the rain.”
 
 - Psycology:  
-  - pseudo-profound quotes:
+  - **pseudo-profound quotes**:
   “consists of seemingly impressive assertions that are presented as true and meaningful but
   are actually vacuous (Pennycook et al., 2015, p. 549)”
-- Philosophy:
-  - humbug:
+- Philosophy & Literature:
+  - **humbug** (Black, 1982):
   “deceptive misrepresentation, short of lying, especially by pretentious
   word or deed, of somebody’s own thoughts, feelings, or attitudes (Max Black)”
-- Literature (Botz-Bornstein, 2017):
-  - kitsch
-  - bullshit
+  - **kitsch** (Botz-Bornstein, 2015, 2017)
+  - **bullshit** (Frankfurt, 2009)
   
 ## Pseudo-profound quote examples:
 
@@ -26,22 +25,22 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 ## Data:
 - Instagram Captions
 
-![Image of grams](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/gram.png)
+![Image of gram](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/gram.png)
 
 Wordcloud for **vacuous** Instagram captions
 
 - Wikiquotes
 
-![Image of grams](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/wiki.png)
+![Image of wiki](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/wiki.png)
 
 Wordcloud for **mundane** Wikiquotes
 - Goodreads
 
-![Image of grams](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/inspiration.png)
+![Image of inspiration](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/inspiration.png)
 
 Wordcloud for **vacuous** quotes
 
-![Image of grams](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/science.png)
+![Image of science](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/science.png)
 
 Wordcloud for **mundane** quotes
 
@@ -62,6 +61,17 @@ Wordcloud for **mundane** quotes
 The RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular, prove to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
 
 ![Image of results](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/result.png)
+
+## Top 40 Vacuous Words (least mundane)
+
+![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.jpg)
+
+## Word Similarity
+
+The most and least similar words to the buzzword *tranquility* in the space of pseudo-profundity
+
+![Image of tran](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility.jpg)
+![Image of tran_dis](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility_dis.jpg)
 
 ## Detection
 
