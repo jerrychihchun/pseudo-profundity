@@ -5,6 +5,7 @@ This is a text classification task detecting the presence or absence of pseudo-p
 ## Pseudo-profound quote examples:
 
 ![Image of examples](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/quotes.png)
+
 Created by *Online Quote Poster Maker* (https://quotescover.com/) 
 
 ## Models:
