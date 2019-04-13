@@ -1,6 +1,6 @@
 # Pseudo-profundity Detection
 
-This is a text classification task detecting the presence of pseudo-profundity, i.e. its detection. Pseudo-profound quotes are labelled as **vacuous** and as **mundane** otherwise.
+This is a text classification task detecting the presence of pseudo-profundity. Pseudo-profound quotes are labelled as **vacuous** and as **mundane** otherwise.
 
 ## Pseudo-profound quote examples:
 
@@ -29,6 +29,6 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 
 ## Results
 
-RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular prove to be effective in detecting pseudo-profundity. I.e., stems alone may contribute the majority of pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
+RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular, prove to be effective in improving the performances. This is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
 
 ![Image of results](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/result.png)
