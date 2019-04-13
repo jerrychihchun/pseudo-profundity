@@ -64,7 +64,7 @@ The RNN models outperform the MLP counterparts to a small extent. In addition, m
 
 ## Top 40 Vacuous Words (least mundane)
 
-![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.jpg | width=100)
+![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.jpg)
 
 ## Word Similarity
 
