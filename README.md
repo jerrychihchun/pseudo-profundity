@@ -64,14 +64,14 @@ The RNN models outperform the MLP counterparts to a small extent. In addition, m
 
 ## Top 40 Vacuous Words (least mundane)
 
-![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.jpg)
+![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.png)
 
 ## Word Similarity
 
 The most and least similar words to the buzzword *tranquility* in the space of pseudo-profundity
 
-![Image of tran](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility.jpg)
-![Image of tran_dis](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility_dis.jpg)
+![Image of tran](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility.png)
+![Image of tran_dis](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility_dis.png)
 
 ## Detection
 
