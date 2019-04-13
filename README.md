@@ -2,12 +2,21 @@
 
 This is a text classification task detecting the presence of pseudo-profundity. Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
 
-- *MUNDANE*: “AIf there is no wall, there is no deal!”
-- *VACUOUS*: “A wet man doesn’t fear the rain.”
+  - *MUNDANE*: “If there is no wall, there is no deal!”
+  - *VACUOUS*: “A wet man doesn’t fear the rain.”
 
+- Psycology:  
   - pseudo-profound quotes:
   “consists of seemingly impressive assertions that are presented as true and meaningful but
-  are actually vacuous (Pennycook et al., 2015, p. 549).”
+  are actually vacuous (Pennycook et al., 2015, p. 549)”
+- Philosophy:
+  - humbug:
+  “deceptive misrepresentation, short of lying, especially by pretentious
+  word or deed, of somebody’s own thoughts, feelings, or attitudes (Max Black)”
+- Literature (Botz-Bornstein, 2017):
+  - kitsch
+  - bullshit
+  
 ## Pseudo-profound quote examples:
 
 ![Image of examples](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/quotes.png)
@@ -44,10 +53,10 @@ Wordcloud for **mundane** quotes
 
 ## Models:
 
-- Multilayer Perceptrons (MLP)
+- Multilayer Perceptrons/MLP (Credits: Grokking Deep Learning by Andrew Trask)
 
-- Recurrent Neural Networks (RNN)  
-  
+- Recurrent Neural Networks/RNN (Credits: Sentiment Prediction with Mat Leonard)
+
 ## Results
 
 The RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular, prove to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
