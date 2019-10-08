@@ -1,6 +1,8 @@
 # Pseudo-profundity Detection
 
-This is a text classification task predicting the presence of pseudo-profundity. Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
+This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer notebooks will continue to be updated in the new compact remaining notebook.
+
+Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
 
   - *MUNDANE*: “If there is no wall, there is no deal!”
   - *VACUOUS*: “A wet man doesn’t fear the rain.”
