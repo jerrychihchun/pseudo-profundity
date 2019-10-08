@@ -1,6 +1,6 @@
 # Pseudo-profundity Detection
 
-This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer notebooks will continue to be updated in the new compact remaining notebook.
+This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the new compact one notebook.
 
 Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
 
