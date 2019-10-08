@@ -1,6 +1,6 @@
 # Pseudo-profundity Detection
 
-This is a text classification task detecting the presence of pseudo-profundity. Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
+This is a text classification task predicting the presence of pseudo-profundity. Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
 
   - *MUNDANE*: “If there is no wall, there is no deal!”
   - *VACUOUS*: “A wet man doesn’t fear the rain.”
@@ -52,9 +52,9 @@ Wordcloud for **mundane** quotes
 
 ## Models:
 
-- Multilayer Perceptrons/MLP (Credits: Grokking Deep Learning by Andrew Trask)
+- Multilayer Perceptrons/MLP (removed)
 
-- Recurrent Neural Networks/RNN (Credits: Sentiment Prediction with Mat Leonard)
+- Recurrent Neural Networks/RNN (removed)
 
 ## Results
 
@@ -75,6 +75,6 @@ The most and least similar words to the buzzword *tranquility* in the space of p
 
 ## Detection
 
-Below is the detected rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected probably because of its absence to our training data. The detection method is found in the file **MLP_demo.ipynb** with the function name *eval* in the training class.
+Below is the detected rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected probably because of its absence to our training data.
 
 ![Image of detection](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/detection.png)
