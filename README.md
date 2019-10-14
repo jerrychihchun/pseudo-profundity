@@ -4,7 +4,7 @@
 
 This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the now one compact notebook. An introduction to pseudo-profundity and former findings will follow. In the current notebook are five models: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity.
 
-<img src="./figures/accuracy.png" width="395" height="266"><img src="./figures/loss.png" width="389" height="266">
+<img src="./figures/accuracy.png" width="350" height="235"><img src="./figures/loss.png" width="346" height="235">
 
               "You are basic!" "Live, laugh, love!"
       "MLP    0.82606065       0.00919458"
@@ -38,55 +38,38 @@ Pseudo-profound quotes/texts are labelled as **vacuous** (0) and as **mundane** 
 Created by *Online Quote Poster Maker* (https://quotescover.com/) 
   
 ## Data
+
 - Instagram Captions
-
-![Image of gram](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/gram.png)
-
-Wordcloud for **vacuous** Instagram captions
-
 - Wikiquotes
-
-![Image of wiki](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/wiki.png)
-
-Wordcloud for **mundane** Wikiquotes
 - Goodreads
 
-![Image of inspiration](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/inspiration.png)
-
-Wordcloud for **vacuous** quotes
-
-![Image of science](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/science.png)
-
-Wordcloud for **mundane** quotes
-
-## Inputs:
+## Inputs
 
 - tokens (using TweetTokenizer)
 - stems (using Snowball stemer)
 - lemmas (using WordNet lemmatizer)
 
-## Models:
+## Models
 
 - Multilayer Perceptrons/MLP (old notebook removed)
-
 - Recurrent Neural Networks/RNN (old notebook removed)
 
 ## Results
 
 The RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular, prove to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
 
-![Image of results](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/result.png)
+<img src="./figures/result.png" width="500" height="334">
 
 ## Top 40 Vacuous Words (least mundane)
 
-![Image of topvacuous](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/topvacuous.png)
+<img src="./figures/topvacuous.png" width="450" height="398">
 
 ## Word Similarity
 
 The most and least similar words to the buzzword *tranquility* in the space of pseudo-profundity
 
-![Image of tran](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility.png)
-![Image of tran_dis](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/tranquility_dis.png)
+<img src="./figures/tranquility.png" width="450" height="390">
+<img src="./figures/tranquility_dis.png" width="450" height="387">
 
 ## Detection
 
