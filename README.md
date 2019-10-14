@@ -3,10 +3,9 @@
 ## In this repository
 
 This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the now one compact notebook. An introduction to pseudo-profundity and former findings will follow. In the current notebook are five models: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity.
-<img src="./figures/accuracy.png" width="277" height="186">
-<img src="./figures/loss.png" width="275" height="186">
-![Image of accuracies](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/accuracy.png)
-![Image of losses](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/loss.png)
+
+<center><img src="./figures/accuracy.png" width="335" height="225">
+<img src="./figures/loss.png" width="333" height="225"></center>
 
               "You are basic!" "Live, laugh, love!"
       "MLP    0.82606065       0.00919458"
