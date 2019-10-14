@@ -4,7 +4,7 @@
 
 This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the now one compact notebook. An introduction to pseudo-profundity and former findings will follow. In the current notebook are five models: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity.
 
-<center><img src="./figures/accuracy.png" width="300" height="213"><img src="./figures/loss.png" width="299" height="213"></center>
+<img src="./figures/accuracy.png" width="300" height="213"><img src="./figures/loss.png" width="299" height="213">
 
               "You are basic!" "Live, laugh, love!"
       "MLP    0.82606065       0.00919458"
