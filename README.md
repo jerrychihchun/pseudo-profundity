@@ -1,8 +1,20 @@
 # Pseudo-profundity Detection
 
-This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the new compact one notebook.
+This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the new one compact notebook. An introduction to pseudo-profundity and older findgins will follow. In the current notebook are five models: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity.
 
-Pseudo-profound quotes/texts are labelled as **vacuous** and as **mundane** otherwise:
+![Image of examples](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/accuracy.png)
+![Image of examples](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/loss.png)
+
+              "You are basic! "Live, laugh, love!"
+      "MLP    0.82606065      0.00919458
+      "1LSTM  0.998755        0.10788591
+      "2LSTM  0.7130968       0.36986926
+      "GRU    0.83411187      0.08223568
+      "1DConv 0.9997211       0.4741875
+      
+      
+## Introduction:
+Pseudo-profound quotes/texts are labelled as **vacuous** (0) and as **mundane** (1) otherwise:
 
   - *MUNDANE*: “If there is no wall, there is no deal!”
   - *VACUOUS*: “A wet man doesn’t fear the rain.”
@@ -54,9 +66,9 @@ Wordcloud for **mundane** quotes
 
 ## Models:
 
-- Multilayer Perceptrons/MLP (removed)
+- Multilayer Perceptrons/MLP (old notebook removed)
 
-- Recurrent Neural Networks/RNN (removed)
+- Recurrent Neural Networks/RNN (old notebook removed)
 
 ## Results
 
@@ -77,6 +89,6 @@ The most and least similar words to the buzzword *tranquility* in the space of p
 
 ## Detection
 
-Below is the detected rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected probably because of its absence to our training data.
+Below is the predicted rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the old *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected probably because of its absence in our training data.
 
 ![Image of detection](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/detection.png)
