@@ -56,7 +56,7 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 
 ## Results
 
-The RNN models outperform the MLP counterparts to a small extent. In addition, morphological normalizations, stemming in particular, prove to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
+The RNN models outperform the MLP counterparts to a negligible extent in terms of accuracy. In addition, morphological normalizations, stemming in particular, seem to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
 
 <img src="./figures/result.png" width="500" height="334">
 
@@ -73,6 +73,6 @@ The most and least similar words to the buzzword *tranquility* in the space of p
 
 ## Detection
 
-Below is the predicted rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the old *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected probably because of its absence in our training data.
+Below is the predicted rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the old *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected because of its absence in our training data.
 
-![Image of detection](https://raw.githubusercontent.com/jerrychihchun/pseudo-profunidity/master/figures/detection.png)
+<img src="./figures/detection.png" width="600" height="477">
