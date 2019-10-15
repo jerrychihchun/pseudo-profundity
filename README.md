@@ -13,7 +13,27 @@ This is a text classification task predicting the presence of pseudo-profundity.
       "GRU    0.83411187       0.08223568"
       "1DConv 0.9997211        0.4741875"
       
-      
+## Revisions on the MLP model:
+
+Since overfitting is observed, we can make some changes based on the MLP model. We reduce the hidden layer size to 8 and input maximum length to 100, and in addition, we want to compare if the activation function for the final single output will improve when changed to a hard sigmoid function. The results are shown below. Therefore, the metadata and trained vectors are updated accordingly in tsv files. The model summary is decribed below. With an additional 81 parameters, its accuracy is fairly satisfactory.
+
+<img src="./figures/activation.png" width="350" height="235">
+
+"Layer (type)                 Output Shape              Param #   " 
+"================================================================="
+"embedding (Embedding)        (None, 100, 8)            80000     
+__________________________________________________________________"
+"global_average_pooling1d (Gl (None, 8)                 0         
+"_________________________________________________________________"
+"dense (Dense)                (None, 8)                 72        
+"_________________________________________________________________"
+"dense_1 (Dense)              (None, 1)                 9         
+"================================================================="
+"Total params: 80,081                                             "
+"Trainable params: 80,081                                         "
+"Non-trainable params: 0                                          "
+"_________________________________________________________________"
+
 ## Definitions:
 Pseudo-profound quotes/texts are labelled as **vacuous** (0) and as **mundane** (1) otherwise:
 
