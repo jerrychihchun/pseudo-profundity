@@ -7,11 +7,11 @@ This is a text classification task predicting the presence of pseudo-profundity.
 <img src="./figures/accuracy.png" width="350" height="235"><img src="./figures/loss.png" width="346" height="235">
 
               "You are basic!" "Live, laugh, love!"
-      "MLP    0.82606065       0.00919458"
-      "1LSTM  0.998755         0.10788591"
-      "2LSTM  0.7130968        0.36986926"
-      "GRU    0.83411187       0.08223568"
-      "1DConv 0.9997211        0.4741875"
+      MLP    0.82606065        0.00919458
+      1LSTM  0.998755          0.10788591
+      2LSTM  0.7130968         0.36986926
+      GRU    0.83411187        0.08223568
+      1DConv 0.9997211         0.4741875
       
 ## Revisions on the MLP model:
 
