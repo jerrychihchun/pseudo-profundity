@@ -75,4 +75,4 @@ The most and least similar words to the buzzword *tranquility* in the space of p
 
 Below is the predicted rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the old *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected because of its absence in our training data.
 
-<img src="./figures/detection.png" width="600" height="477">
+<img src="./figures/detection.png" width="500" height="396">
