@@ -32,7 +32,8 @@ Since overfitting is observed, we can make some changes based on the MLP model. 
     Non-trainable params: 0
     _________________________________________________________________
 
-### Saved Model
+### Saved Model & Tokenizer
+To build a command line version for use of the classifier, we can save the tokenizer and a model as shown in the notebook with the 1DConv model. Execute Predict_conv.py while placing tokenizer.json and 1DConv_model.h5 in the same directory, and enjoy detecting pseudo-profundity!
 
 ## Definitions:
 Pseudo-profound quotes/texts are labelled as **vacuous** (0) and as **mundane** (1) otherwise:
