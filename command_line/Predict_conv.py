@@ -23,7 +23,7 @@ if __name__== "__main__" :
 	    	break
 	    sequences = tokenizer.texts_to_sequences([text])
 	    padded = pad_sequences(sequences, maxlen=max_length, padding=padding_type, truncating=trunc_type)
-	    print(model_conv.predict(padded))
+	    print(model_conv.predict(padded)[0][0])
 
 
 
