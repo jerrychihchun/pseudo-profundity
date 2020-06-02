@@ -2,7 +2,7 @@
 
 ## In this repository
 
-This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods will continue to be updated in the now one compact notebook. An introduction to pseudo-profundity and former findings will follow. In the current notebook are five models: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity.
+This is a text classification task predicting the presence of pseudo-profundity. The older classifiers presented below are now removed and newer methods continue to be updated in the now one compact notebook. The metadata and trained vectors are updated accordingly in tsv files. An introduction to pseudo-profundity and former findings will follow. Former experimented models are: **MLP, SingleLSTM, DoubleLSTM, GRU, 1DConv**. Their validation accuracies and losses are shown as below as well as individual predictions on two example sentences where 1 indicates the absence and 0 the presence of pseudo-profundity. 
 
 <img src="./figures/accuracy.png" width="350" height="235"><img src="./figures/loss.png" width="346" height="235">
 
@@ -15,7 +15,7 @@ This is a text classification task predicting the presence of pseudo-profundity.
       
 ### Revisions on the MLP model
 
-Since overfitting is observed, we can make some changes based on the MLP model. We reduce the hidden layer size to 8 and input maximum length to 100, and in addition, we want to compare if the activation function for the final single output will improve when changed to a hard sigmoid function. The results are shown below. Therefore, the metadata and trained vectors are updated accordingly in tsv files. The model summary is decribed below. With an additional 81 parameters, its accuracy is fairly satisfactory.
+We make some changes based on the MLP model. We reduce the hidden layer size to 8 and input maximum length to 100, and in addition, we want to compare if the activation function for the final single output will improve when changed to a hard sigmoid function. The results are shown below. The model summary is decribed below. With an additional 81 parameters, its accuracy is fairly satisfactory.
 
 <img src="./figures/activation.png" width="350" height="235">
 
@@ -65,8 +65,3 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 - Instagram Captions
 - Wikiquotes
 - Goodreads
-
-## Inputs
-
-- tokens (using TweetTokenizer)
-- lemmas (using WordNet lemmatizer)
