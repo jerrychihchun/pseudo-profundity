@@ -38,7 +38,7 @@ To build a command line version for use of the classifier, we can save the token
 <img src="./figures/demo.gif" width="400" height="281">
 
 ## Definitions:
-Pseudo-profound quotes/texts are labelled as **vacuous** (0) and as **mundane** (1) otherwise:
+Pseudo-profound quotes/texts are labelled as **vacuous** (1) and as **mundane** (0) otherwise:
 
   - *MUNDANE*: “If there is no wall, there is no deal!”
   - *VACUOUS*: “A wet man doesn’t fear the rain.”
@@ -69,33 +69,4 @@ Created by *Online Quote Poster Maker* (https://quotescover.com/)
 ## Inputs
 
 - tokens (using TweetTokenizer)
-- stems (using Snowball stemer)
 - lemmas (using WordNet lemmatizer)
-
-## Models
-
-- Multilayer Perceptrons/MLP (old notebook removed)
-- Recurrent Neural Networks/RNN (old notebook removed)
-
-## Results
-
-The RNN models outperform the MLP counterparts to a negligible extent in terms of accuracy. In addition, morphological normalizations, stemming in particular, seem to be effective in improving the performances. That is, stems alone contain the major (non-)pseudo-profound senses. Affixes, derivational and inflectional alike, are not as informative.
-
-<img src="./figures/result.png" width="500" height="334">
-
-## Top 40 Vacuous Words (least mundane)
-
-<img src="./figures/topvacuous.png" width="450" height="398">
-
-## Word Similarity
-
-The most and least similar words to the buzzword *tranquility* in the space of pseudo-profundity
-
-<img src="./figures/tranquility.png" width="450" height="390">
-<img src="./figures/tranquility_dis.png" width="450" height="387">
-
-## Detection
-
-Below is the predicted rates of pseudo-profundity based on 16 celebrities' public Instagram captions and 1 computer-generated source by *Bullshit Generator* (http://sebpearce.com/bullshit/). The detection is done based on the training on the entire dataset with the old *MLP + Stemming* model (this means that we also need to stem the inputs for detection). The bullshit quotes aren't as pseudo-profound as expected because of its absence in our training data.
-
-<img src="./figures/detection.png" width="500" height="396">
